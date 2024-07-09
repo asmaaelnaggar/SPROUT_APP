@@ -1,0 +1,2642 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/static");
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/static2");
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+
+/* Sign-up Page */
+.Sign-up{
+    width: 378px;
+    height: 765.23px;
+    top: 100px;
+    left: 531px;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.Sign-up .section1{
+    width:378px;
+    height: 154.31px;
+    gap: 18px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.Sign-up .section1 .img{
+    width: 112px;
+    height: 102.31px;
+    padding: 0px 0px 3.8px 0px;
+}
+.Sign-up .section1 .text{
+    width: 273px;
+    height: 34px;
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.13px;
+    text-align: center;
+    color: Dark Gray;
+}
+
+.Sign-up .section2{
+    width: 378px;
+    height: 594.93px;
+    gap: 16px;
+    flex-direction: column;
+}
+.Sign-up .section2 .Form{
+    width: 378px;
+    height: 372px;
+    padding: 24px;
+    gap: 24px;
+    flex-direction: column;
+    border-radius: 12px;
+    border: 2px solid #EEEEEE;
+}
+.Sign-up .section2 .Form .part1{
+width: 330px;
+height: 240px;
+flex-direction: column;
+gap: 12px;
+}
+
+.Sign-up .section2 .Form .part1 .input1{
+width: 330px;
+height:48px;
+padding: 12px 16px 12px 16px;
+gap: 10px;
+border-radius: 12px ;
+border:  2px solid #EEEEEE;
+}
+
+.Sign-up .section2 .Form .part1 .input1::placeholder{
+    color: #999999;
+}
+.Sign-up .section2 .Form .part1 .our-form{
+width: 330px;
+height: 72px;
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+.Sign-up .section2 .Form .part1 .our-form .our-label{
+    color: #CCCCCC;
+    font-size: 12px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.34px;
+    text-align: left;
+
+}
+.Sign-up .section2 .part2 .our-btn{
+width: 330px;
+height: 48px;
+padding: 12px 10px 12px 10px;
+gap: 10px;
+border-radius: 12px;
+background-color: #00E676;
+text-align: center;
+color: #FFFFFF;
+font-family: "Montserrat";
+font-size: 15px;
+font-weight: 700;
+line-height: 18.29px;
+text-align: center;
+
+}
+*:focus{
+    outline: none !important;
+}
+
+.Sign-up .section2 .sign{
+width: 378px;
+height: 206.93px;
+padding: 24px 0px 0px 0px;
+gap: 14px;
+border-radius: 12px;
+flex-direction: column;
+border:  2px solid #EEEEEE;
+align-items: center;
+}
+
+.Sign-up .section2 .sign p a{
+    color:#00E676 ;
+}
+.Sign-up .section2 .sign .section2 p{
+font-family: "Open Sans";
+font-size: 13px;
+font-weight: 400;
+line-height: 17.7px;
+height: 18px;
+}
+
+.Sign-up .section2 .sign .section1{
+width: 330px;
+height: 126.93px;
+gap: 10px;
+flex-direction: column;
+text-align: center;
+
+}
+.Sign-up .section2 .sign .section1 .sign-google p{
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 700;
+line-height: 19.07px;
+text-align: left;
+color: #333333;
+}
+.Sign-up .section2 .sign .section1 .sign-facebook p{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.07px;
+    text-align: left;
+    color: #333333;
+    }
+.Sign-up .section2 .sign .section1 .main-p{
+width: 21px;
+height: 19px;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 700;
+line-height: 19.07px;
+text-align: left;
+margin: 0px !important;
+color: #333333;
+}
+.Sign-up .section2 .sign .sign-google{
+flex-direction: row;
+width:330px;
+height:44px;
+padding: 12px 24px 12px 24px;
+gap: 58.5px;
+border-radius: 12px ;
+border: 1px solid #EEEEEE;
+font-family: "Open Sans";
+font-size: 12px;
+font-weight: 600;
+line-height: 16.34px;
+color: #333333;
+text-align: center;
+
+}
+
+.Sign-up .section2 .sign .sign-facebook{
+    flex-direction: row;
+    width:330px;
+    height:44px;
+    padding: 12px 24px 12px 24px;
+    gap: 58.5px;
+    border-radius: 12px ;
+    border: 1px solid #EEEEEE;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.34px;
+    color: #333333;
+    text-align: center;
+}
+
+.sign .section1 a{
+    text-decoration: none;
+}
+
+
+
+/* media for sign up in media query */
+@media( min-width:667px)and (max-width: 768px ) {
+    /* For tablets: */
+    .Sign-up{
+        width: 350px;
+        height: 754px;
+        top: 90px;
+        left: 337px;
+        gap: 16px; 
+        
+    } 
+    .Sign-up .section1{
+    width: 350px;
+    height:149.31px;
+    gap: 18px;
+    opacity: 0px;
+    }
+    .Sign-up .section1 .img{
+    width: 112px;
+    height: 102.31px;
+    padding: 0px 0px 3.8px 0px;
+    gap: 0px;
+    opacity: 0px;
+    }
+    .Sign-up .section1 .text{
+        width: 234px;
+        height: 29px;
+        font-family: "Montserrat";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29.26px;
+        text-align: center;
+        color: Dark Gray;
+    }
+    
+    .Sign-up .section2{
+        width: 350px;
+        height: 590.93px;
+        gap: 16px;
+        flex-direction: column;
+    }
+    .Sign-up .section2 .Form{
+        width: 350px;
+        height: 368px;
+        padding: 24px;
+        gap: 24px;
+        flex-direction: column;
+        border-radius: 12px;
+        border: 2px solid #EEEEEE;
+    }
+    .Sign-up .section2 .Form .part1{
+        width: 302px;
+        height: 240px;
+        flex-direction: column;
+        gap: 12px;
+        }
+        .Sign-up .section2 .Form .part1 .input1{
+            width: 302px;
+            height:48px;
+            padding: 12px 16px 12px 16px;
+            gap: 10px;
+            border-radius: 12px ;
+            border:  2px solid #EEEEEE;
+            }
+            .Sign-up .section2 .Form .part1 .our-form{
+                width: 302px;
+                height: 72px;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+            }
+            .Sign-up .section2 .Form .part1 .our-form .our-label{
+                color: #CCCCCC;
+                font-size: 12px;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 16.34px;
+                text-align: left;
+            
+            }
+            .Sign-up .section2 .part2 .our-btn{
+            width: 302px;
+            height: 48px;
+            padding: 12px 10px 12px 10px;
+            gap: 10px;
+            border-radius: 12px;
+            background-color: #00E676;
+            text-align: center;
+            color: #FFFFFF;
+            font-family: "Montserrat";
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 18.29px;
+            text-align: center;
+            
+            }
+            *:focus{
+                outline: none !important;
+            }
+            
+            .Sign-up .section2 .sign{
+            width: 350px;
+            height: 206.93px;
+            padding: 24px 0px 0px 0px;
+            gap: 14px;
+            border-radius: 12px;
+            flex-direction: column;
+            border:  2px solid #EEEEEE;
+            align-items: center;
+            
+            }
+            
+            .Sign-up .section2 .sign p a{
+                color:#00E676 ;
+            }
+            .Sign-up .section2 .sign .section2 p{
+            font-family: "Open Sans";
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 17.7px;
+            height: 18px;
+            }
+            
+            .Sign-up .section2 .sign .section1{
+            width: 302px;
+            height: 126.93px;
+            gap: 10px;
+            flex-direction: column;
+            text-align: center;
+            
+            }
+            .Sign-up .section2 .sign .section1 .sign-google p{
+            font-family: "Open Sans";
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 19.07px;
+            text-align: left;
+            color: #333333;
+            }
+            .Sign-up .section2 .sign .section1 .sign-facebook p{
+                font-family: "Open Sans";
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 19.07px;
+                text-align: left;
+                color: #333333;
+                }
+            .Sign-up .section2 .sign .section1 .main-p{
+            width: 21px;
+            height: 19px;
+            font-family: "Open Sans";
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 19.07px;
+            text-align: left;
+            margin: 0px !important;
+            color: #333333;
+            }
+            .Sign-up .section2 .sign .sign-google{
+            flex-direction: row;
+            width:302px;
+            height:44px;
+            padding: 12px 24px 12px 24px;
+            gap: 58.5px;
+            border-radius: 12px ;
+            border: 1px solid #EEEEEE;
+            font-family: "Open Sans";
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 16.34px;
+            color: #333333;
+            text-align: center;
+            
+            }
+            
+            .Sign-up .section2 .sign .sign-facebook{
+                flex-direction: row;
+                width:302px;
+                height:44px;
+                padding: 12px 24px 12px 24px;
+                gap: 58.5px;
+                border-radius: 12px ;
+                border: 1px solid #EEEEEE;
+                font-family: "Open Sans";
+                font-size: 12px;
+                font-weight: 600;
+                line-height: 16.34px;
+                color: #333333;
+                text-align: center;
+            }
+            
+            .sign .section1 a{
+                text-decoration: none;
+            }
+            
+}
+
+
+/* media for sign up in phone */
+@media(max-width: 666px ) {
+    
+    .Sign-up{
+        width: 280px;
+        height: 693.38px;
+        top: 80px;
+        left: 48px;
+        gap: 14px; 
+        
+    } 
+    .Sign-up .section1{
+    width: 280px;
+    height:120.38px;
+    gap: 18px;
+    }
+    .Sign-up .section1 .img{
+    width:88px;
+    height: 80.38px;
+    
+    }
+    .Sign-up .section1 .text{
+        width: 280px;
+        height: 22px;
+        font-family: "Montserrat";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.94px;
+        text-align: center;
+        color: Dark Gray;
+    }
+    
+    .Sign-up .section2{
+        width: 280px;
+        height: 559px;
+        gap: 16px;
+        flex-direction: column;
+    }
+    .Sign-up .section2 .Form{
+        width: 280px;
+        height: 355px;
+        padding: 20px;
+        gap: 24px;
+        flex-direction: column;
+        border-radius: 12px;
+        border: 2px solid #EEEEEE;
+    }
+    .Sign-up .section2 .Form .part1{
+        width: 240px;
+        height: 237px;
+        flex-direction: column;
+        gap: 12px;
+        }
+        .Sign-up .section2 .Form .part1 .input1{
+            width: 240px;
+            height:48px;
+            padding: 12px 16px 12px 16px;
+            gap: 10px;
+            border-radius: 12px ;
+            border:  2px solid #EEEEEE;
+            }
+            .Sign-up .section2 .Form .part1 .our-form{
+                width: 240px;
+                height: 71px;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            .Sign-up .section2 .Form .part1 .our-form .our-label{
+                color: #CCCCCC;
+                font-size: 11px;
+                font-size: 11px;
+                font-weight: 700;
+                line-height: 16.34px;
+                text-align: left;
+            
+            }
+            .Sign-up .section2 .part2 .our-btn{
+            width:240px;
+            height: 48px;
+            padding: 12px 10px 12px 10px;
+            gap: 10px;
+            border-radius: 12px;
+            background-color: #00E676;
+            text-align: center;
+            color: #FFFFFF;
+            font-family: "Montserrat";
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 18.29px;
+            text-align: center;
+            
+            }
+            *:focus{
+                outline: none !important;
+            }
+            
+            .Sign-up .section2 .sign{
+            width: 280px;
+            height: 188px;
+            padding: 20px 0px 0px 0px;
+            gap: 14px;
+            border-radius: 12px;
+            flex-direction: column;
+            border:  2px solid #EEEEEE;
+            align-items: center;
+            
+            }
+            
+            .Sign-up .section2 .sign p a{
+                color:#00E676 ;
+            }
+            .Sign-up .section2 .sign .section2 p{
+                width: 152px;
+                height: 14px;
+                font-family: "Open Sans";
+                font-size: 10px;
+                font-weight: 400 !important;
+                line-height: 13.62px;
+                color: #333333;
+            }
+            
+            .Sign-up .section2 .sign .section1{
+            width: 240px;
+            height: 126.93px;
+            gap: 10px;
+            flex-direction: column;
+            text-align: center;
+            
+            }
+            .Sign-up .section2 .sign .section1 .sign-google p{
+            font-family: "Open Sans";
+            font-size: 10px;
+            font-weight: 600;
+            line-height: 19.07px;
+            text-align: left;
+            color: #333333;
+            }
+            .Sign-up .section2 .sign .section1 .sign-facebook p{
+                font-family: "Open Sans";
+                font-size: 10px;
+                font-weight: 600;
+                line-height: 19.07px;
+                text-align: left;
+                color: #333333;
+                width: 117px;
+                height: 14px;
+                margin: 0px;
+                }
+            .Sign-up .section2 .sign .section1 .main-p{
+            width: 18px;
+            height: 16px;
+            font-family: "Open Sans";
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 19.07px;
+            text-align: left;
+            margin: 0px !important;
+            color: #333333;
+            }
+            .Sign-up .section2 .sign .sign-google{
+            flex-direction: row;
+            width:240px;
+            height:42px;
+            padding: 12px 20px 12px 20px;
+            gap: 58.5px;
+            border-radius: 12px ;
+            border: 1px solid #EEEEEE;
+            font-family: "Open Sans";
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 16.34px;
+            color: #333333;
+            text-align: center;
+            }
+            .Sign-up .section2 .sign .sign-facebook{
+                flex-direction: row;
+                width:240px;
+                height:42px;
+                padding: 12px 20px 12px 20px;
+                gap: 58.5px;
+                border-radius: 12px ;
+                border: 1px solid #EEEEEE;
+                font-family: "Open Sans";
+                font-size: 12px;
+                font-weight: 600;
+                line-height: 16.34px;
+                color: #333333;
+                text-align: center;
+            }
+            .sign .section1 a{
+                text-decoration: none;
+            }
+            
+}
+
+
+
+
+
+
+
+/* Login page */
+.Login{
+    width: 378px;
+    height: 697.23px;
+    top: 100px;
+    left: 531px;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Login .section1{
+    width:378px;
+    height: 154.31px;
+    gap: 18px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.Login .section1 .img{
+    width: 112px;
+    height: 102.31px;
+    padding: 0px 0px 3.8px 0px;
+}
+.Login .section1 .text{
+    width: 273px;
+    height: 34px;
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.13px;
+    text-align: center;
+    color: Dark Gray;
+}
+
+.Login .section2{
+    width: 378px;
+    height: 526.93px;
+    gap: 16px;
+    flex-direction: column;
+}
+.Login .section2 .Form{
+    width: 378px;
+    height: 304px;
+    padding: 24px;
+    gap: 24px;
+    flex-direction: column;
+    border-radius: 12px;
+    border: 2px solid #EEEEEE;
+}
+.Login .section2 .Form .part1{
+width: 330px;
+height: 180px;
+flex-direction: column;
+gap: 12px;
+}
+
+.Login .section2 .Form .part1 .input1{
+width: 330px;
+height:48px;
+padding: 12px 16px 12px 16px;
+gap: 10px;
+border-radius: 12px ;
+border:  2px solid #EEEEEE;
+}
+
+.Login .section2 .Form .part1 .input1::placeholder{
+    color: #999999;
+}
+.Login .section2 .Form .part1 .our-form{
+width: 330px;
+height: 72px;
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+.Login .section2 .Form .part1 .our-form .our-label{
+    color: #CCCCCC;
+    font-size: 12px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.34px;
+    text-align: left;
+
+}
+.Login .section2 .part2 .our-btn{
+width: 330px;
+height: 48px;
+padding: 12px 10px 12px 10px;
+gap: 10px;
+border-radius: 12px;
+background-color: #00E676;
+text-align: center;
+color: #FFFFFF;
+font-family: "Montserrat";
+font-size: 15px;
+font-weight: 700;
+line-height: 18.29px;
+text-align: center;
+
+}
+*:focus{
+    outline: none !important;
+}
+
+.Login .section2 .login{
+width: 378px;
+height: 206.93px;
+padding: 24px 0px 0px 0px;
+gap: 14px;
+border-radius: 12px;
+flex-direction: column;
+border:  2px solid #EEEEEE;
+align-items: center;
+
+
+
+}
+
+.Login .section2 .login p a{
+    color:#00E676 ;
+}
+.Login .section2 .login .section2 p{
+font-family: "Open Sans";
+font-size: 13px;
+font-weight: 400;
+line-height: 17.7px;
+height: 18px;
+}
+
+.Login  .section2 .login .section1{
+width: 330px;
+height: 126.93px;
+gap: 10px;
+flex-direction: column;
+text-align: center;
+
+}
+.Login .section2 .login .section1 .login-google p{
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 700;
+line-height: 19.07px;
+text-align: left;
+color: #333333;
+}
+.Login .section2 .login .section1 .login-facebook p{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.07px;
+    text-align: left;
+    color: #333333;
+    }
+.Login .section2 .login .section1 .main-p{
+width: 21px;
+height: 19px;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 700;
+line-height: 19.07px;
+text-align: left;
+margin: 0px !important;
+color: #333333;
+}
+.Login .section2 .login .login-google{
+flex-direction: row;
+width:330px;
+height:44px;
+padding: 12px 24px 12px 24px;
+gap: 58.5px;
+border-radius: 12px ;
+border: 1px solid #EEEEEE;
+font-family: "Open Sans";
+font-size: 12px;
+font-weight: 600;
+line-height: 16.34px;
+color: #333333;
+text-align: center;
+
+}
+
+.Login .section2 .login .login-facebook{
+    flex-direction: row;
+    width:330px;
+    height:44px;
+    padding: 12px 24px 12px 24px;
+    gap: 58.5px;
+    border-radius: 12px ;
+    border: 1px solid #EEEEEE;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.34px;
+    color: #333333;
+    text-align: center;
+}
+
+.login .section1 a{
+    text-decoration: none;
+}
+
+.Login .Form a{
+    color:#00E676;
+    display: flex;
+    justify-content: end;
+    height: 16px;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    text-align: left;
+}
+
+
+/* media for login (tablet) in media query */
+@media( min-width:667px)and (max-width: 768px ) {
+    .Login{
+        width: 350px;
+        height: 690.23px;
+        top: 90px;
+        left:337px;
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .Login .section1{
+        width:350px;
+        height: 149.31px;
+        gap: 18px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .Login .section1 .img{
+        width: 112px;
+        height: 102.31px;
+        padding: 0px 0px 3.8px 0px;
+    }
+    .Login .section1 .text{
+        width: 206px;
+        height: 29px;
+        font-family: "Montserrat";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29.26px;
+        text-align: center;
+        color: Dark Gray;
+    }
+    
+    .Login .section2{
+        width: 350px;
+        height: 524.93px;
+        gap: 16px;
+        flex-direction: column;
+    }
+    .Login .section2 .Form{
+        width: 350px;
+        height: 304px;
+        padding: 24px;
+        gap: 24px;
+        flex-direction: column;
+        border-radius: 12px;
+        border: 2px solid #EEEEEE;
+    }
+    .Login .section2 .Form .part1{
+    width: 302px;
+    height: 180px;
+    flex-direction: column;
+    gap: 12px;
+    }
+    
+    .Login .section2 .Form .part1 .input1{
+    width: 302px;
+    height:48px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+    border-radius: 12px ;
+    border:  2px solid #EEEEEE;
+    }
+    
+    .Login .section2 .Form .part1 .input1::placeholder{
+        color: #999999;
+    }
+    .Login .section2 .Form .part1 .our-form{
+    width: 302px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    }
+    
+    .Login .section2 .Form .part1 .our-form .our-label{
+        color: #CCCCCC;
+        font-size: 12px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16.34px;
+        text-align: left;
+        width: 302px;
+        height: 16px;
+    
+    }
+    .Login .section2 .part2 .our-btn{
+    width: 302px;
+    height: 48px;
+    padding: 12px 10px 12px 10px;
+    gap: 10px;
+    border-radius: 12px;
+    background-color: #00E676;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18.29px;
+    text-align: center;
+    
+    }
+    *:focus{
+        outline: none !important;
+    }
+    
+    .Login .section2 .login{
+    width: 350px;
+    height: 206.93px;
+    padding: 24px 0px 0px 0px;
+    gap: 14px;
+    border-radius: 12px;
+    flex-direction: column;
+    border:  2px solid #EEEEEE;
+    align-items: center;
+    }
+    
+    .Login .section2 .login p a{
+        color:#00E676 ;
+    }
+    .Login .section2 .login .section2 p{
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17.7px;
+    height: 18px;
+    }
+    
+    .Login  .section2 .login .section1{
+    width: 302px;
+    height: 126.93px;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+    
+    }
+    .Login .section2 .login .section1 .login-google p{
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19.07px;
+    text-align: left;
+    color: #333333;
+    }
+    .Login .section2 .login .section1 .login-facebook p{
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 19.07px;
+        text-align: left;
+        color: #333333;
+        }
+    .Login .section2 .login .section1 .main-p{
+    width: 21px;
+    height: 19px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.07px;
+    text-align: left;
+    margin: 0px !important;
+    color: #333333;
+    }
+    .Login .section2 .login .login-google{
+    flex-direction: row;
+    width:302px;
+    height:44px;
+    padding: 12px 24px 12px 24px;
+    gap: 56.5px;
+    border-radius: 12px ;
+    border: 1px solid #EEEEEE;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.34px;
+    color: #333333;
+    text-align: center;
+    
+    }
+    
+    .Login .section2 .login .login-facebook{
+        flex-direction: row;
+        width:302px;
+        height:44px;
+        padding: 12px 24px 12px 24px;
+        gap: 65.5px;
+        border-radius: 12px ;
+        border: 1px solid #EEEEEE;
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16.34px;
+        color: #333333;
+        text-align: center;
+    }
+    
+    .login .section1 a{
+        text-decoration: none;
+    }
+    
+    .Login .Form a{
+        color:#00E676;
+        display: flex;
+        justify-content: end;
+        height: 16px;
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.34px;
+        text-align: left;
+    }
+    
+
+/* 
+Lgin After Reset in tablet  */
+.Login .set_Successfully{
+width: 350px;
+height: 52px;
+padding: 14px 24px 14px 24px;
+border-radius: 12px;
+border:  2px solid #EEEEEE;
+justify-content: space-between;
+    flex-direction: row;
+}
+.Login .set_Successfully p{
+width: 190px;
+height: 18px;
+gap: 0px;
+opacity: 0px;
+font-family: "Open Sans";
+font-size: 13px;
+font-weight: 400;
+line-height: 17.7px;
+text-align: left;
+color: #333333;
+text-align: center;
+margin: 0px;
+align-items: center;
+}
+
+.Login .set_Successfully img{
+width: 12px;
+height: 12px;
+align-items: center;
+text-align: center;
+}
+}
+
+
+
+
+/* media for login (phone) in media query */
+@media( max-width:666px) {
+    .Login{
+        width: 280px;
+        height: 630.31px;
+        top: 80px;
+        left:48px;
+        flex-direction: column;
+        gap: 14px;
+    }
+    
+    .Login .section1{
+        width:280px;
+        height: 120.38px;
+        gap: 18px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .Login .section1 .img img{
+        width: 88px;
+        height:80.38px;
+        
+    }
+    .Login .section1 .text{
+        width: 280px;
+        height: 22px;
+        font-family: "Montserrat";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.94px;
+        text-align: center;
+        color: Dark Gray;
+    }
+    
+    .Login .section2{
+        width: 280px;
+        height: 495.93px;
+        gap: 16px;
+        flex-direction: column;
+    }
+    .Login .section2 .Form{
+        width: 280px;
+        height: 288px;
+        padding: 24px;
+        gap: 24px;
+        flex-direction: column;
+        border-radius: 12px;
+        border: 2px solid #EEEEEE;
+    }
+    .Login .section2 .Form .part1{
+    width: 240px;
+    height: 176px;
+    flex-direction: column;
+    gap: 12px;
+    }
+    
+    .Login .section2 .Form .part1 .input1{
+    width: 240px;
+    height:48px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+    border-radius: 12px ;
+    border:  2px solid #EEEEEE;
+    }
+    
+    .Login .section2 .Form .part1 .input1::placeholder{
+        color: #999999;
+    }
+    .Login .section2 .Form .part1 .our-form{
+    width: 240px;
+    height: 71px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    }
+    
+    .Login .section2 .Form .part1 .our-form .our-label{
+        color: #CCCCCC;
+        font-size: 12px;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 14.98px;
+        text-align: left;
+        width: 240px;
+        height: 15px;
+    
+    }
+    .Login .section2 .part2 .our-btn{
+    width: 240px;
+    height: 48px;
+    padding: 12px 10px 12px 10px;
+    gap: 10px;
+    border-radius: 12px;
+    background-color: #00E676;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.85px;
+    text-align: center;
+    
+    }
+    *:focus{
+        outline: none !important;
+    }
+    
+    .Login .section2 .login{
+    width: 280px;
+    height: 191.93px;
+    padding: 20px;
+    gap: 14px;
+    border-radius: 12px;
+    flex-direction: column;
+    border:  2px solid #EEEEEE;
+    align-items: center;
+    }
+    
+    .Login .section2 .login p a{
+        color:#00E676 ;
+
+    }
+   
+    .Login  .section2 .login .section1{
+    width: 240px;
+    height: 123.93px;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+    
+    }
+    .Login .section2 .login .section1 .login-google p{
+    font-family: "Open Sans";
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 13.62px;
+    text-align: left;
+    color: #333333;
+    }
+    .Login .section2 .login .section1 .login-facebook p{
+        font-family: "Open Sans";
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 13.62px;
+        text-align: left;
+        color: #333333;
+        width: 120px;
+        height: 14px;
+        margin: 0px !important;
+        }
+    .Login .section2 .login .section1 .main-p{
+    width: 18px;
+    height: 16px;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.34px;
+    text-align: left;
+    margin: 0px !important;
+    color: #333333;
+    }
+    .Login .section2 .login .login-google{
+        flex-direction: row;
+        width:240px;
+        height:43.93px;
+        padding: 12px 24px 12px 24px;
+        gap: 23.5px;
+        border-radius: 12px ;
+        border: 1px solid #EEEEEE;
+        font-family: "Open Sans";
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 13.62px;
+        color: #333333;
+        text-align: center;
+    
+    }
+    
+    .Login .section2 .login .login-facebook{
+        flex-direction: row;
+        width:240px;
+        height:43.93px;
+        padding: 12px 24px 12px 24px;
+        gap: 23.5px;
+        border-radius: 12px ;
+        border: 1px solid #EEEEEE;
+        font-family: "Open Sans";
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 13.62px;
+        color: #333333;
+        text-align: center;
+    }
+    
+    .login .section1 a{
+        text-decoration: none;
+    }
+    
+    .Login .Form a{
+        color:#00E676;
+        display: flex;
+        justify-content: end;
+        height: 14px;
+        font-family: "Open Sans";
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 13.62px;
+        text-align: left;
+    }
+
+    .Login .section2 .login p a{
+        color:#00E676 ;
+    }
+    .newp{
+        margin: 0;
+        width: 161px;
+        height: 14px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Open Sans";
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 13.62px;
+        text-align: left;
+        
+    }
+}
+
+/* Verification css  Desktop*/
+
+.Verification{
+width: 378px;
+height: 568.31px;
+top: 100px;
+left: 531px;
+gap: 16px;
+flex-direction: column;
+
+}
+.Verification .section1{
+    width: 378px;
+    height: 154.31px;
+    gap: 18px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+.Verification .section1 .img{
+    width: 112px;
+    height: 102.31px;
+    padding: 0px 0px 3.8px 0px;
+}
+
+.Verification .section1 .text{
+    width: 277px;
+    height: 34px;
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.13px;
+    text-align: center;
+    color: #333333;
+}
+
+.Verification .section2{
+    width: 378px;
+    height: 398px;
+    padding: 24px;
+    gap: 24px;
+    flex-direction: column;
+    border-radius: 12px;
+    border: 2px solid #EEEEEE;
+}
+.Verification .section2 .imageemail{
+    height:69px;
+    gap: 4px;
+    text-align: center;
+    align-items: center;
+}
+
+.Verification .section2 .Form{
+    width:330px;
+height:257px;
+gap: 24px;
+opacity: 0px;
+flex-direction: column;
+
+}
+
+.Verification .section2 .Form .ptext{
+    width: 330px;
+    height: 57px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    color: #333333;
+
+
+}
+.Verification .section2 .Form .form{
+    width: 330px;
+    height: 100px;
+    gap: 12px;
+    flex-direction: column;
+
+}
+
+.Verification .section2 .Form .form .our-form{
+    width: 330px;
+    height: 72px;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.Verification .section2 .Form .form .our-form .our-label{
+    width: 330px;
+    height: 16px;
+    color: #CCCCCC;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.34px;
+    text-align: left;
+
+}
+
+.Verification .section2 .Form .form .our-form .input1::placeholder{
+    width: 330px;
+    height: 16px;
+    color: #CCCCCC;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    color: #999999;
+}
+
+.Verification .section2 .Form .form a{
+    font-family: "Open Sans";
+font-size: 12px;
+font-weight: 400;
+line-height: 16.34px;
+text-align: left;
+color: #00C853;
+height: 16px;
+gap: 0px;
+opacity: 0px;
+display: flex;
+flex-direction: row-reverse;
+
+} 
+.Verification .part2 .our-btn{
+width: 330px;
+height: 48px;
+padding: 12px 10px 12px 10px;
+gap: 10px;
+border-radius: 12px;
+background-color: #00E676;
+color: #FFFFFF;
+font-family: "Montserrat";
+font-size: 15px;
+font-weight: 700;
+line-height: 18.29px;
+text-align: center;
+}
+
+/* media for Verification (tablet) in media query */
+@media( min-width:667px)and (max-width: 768px ) {
+    .Verification{
+        width: 350px;
+        height: 550.31px;
+        top: 90px;
+        left: 337px;
+        gap: 16px;
+        flex-direction: column;
+        
+        }
+        .Verification .section1{
+            width: 350px;
+            height: 149.31px;
+            gap: 18px;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+        
+        .Verification .section1 .img{
+            width: 112px;
+            height: 102.31px;
+        }
+        
+        .Verification .section1 .text{
+            width: 238px;
+            height: 29px;
+            font-family: "Montserrat";
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 29.26px;
+            text-align: center;
+            color: #333333;
+        }
+        
+        .Verification .section2{
+            width: 350px;
+            height: 385px;
+            padding: 24px;
+            gap: 24px;
+            flex-direction: column;
+            border-radius: 12px;
+            border: 2px solid #EEEEEE;
+        }
+        .Verification .section2 .imageemail{
+            height:61px;
+            text-align: center;
+            align-items: center;
+        }
+        
+        .Verification .section2 .Form{
+            width:302px;
+            height:251px;
+            gap: 24px;
+            opacity: 0px;
+            flex-direction: column;
+        }
+        
+        .Verification .section2 .Form .ptext{
+            width: 302px;
+            height: 54px;
+            font-family: "Open Sans";
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 17.7px;
+            text-align: left;
+            color: #333333;
+        }
+        .Verification .section2 .Form .form{
+            width: 302px;
+            height: 100px;
+            gap: 12px;
+            flex-direction: column;
+        }
+        
+        .Verification .section2 .Form .form .our-form{
+            width: 302px;
+            height: 72px;
+            gap: 8px;
+            flex-direction: column;
+        }
+        
+        .Verification .section2 .Form .form .our-form .our-label{
+            width: 302px;
+            height: 16px;
+            color: #CCCCCC;
+            font-family: "Open Sans";
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 16.34px;
+            text-align: left;
+        }
+        
+        .Verification .section2 .Form .form .our-form .input1::placeholder{
+            width: 270px;
+            height: 24px;
+            color: #CCCCCC;
+            font-family: "Open Sans";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19.07px;
+            text-align: left;
+            color: #999999;
+        }
+        
+        .Verification .section2 .Form .form a{
+            font-family: "Open Sans";
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16.34px;
+            text-align: left;
+            color: #00C853;
+            height: 16px;
+            display: flex;
+            flex-direction: row-reverse;
+        } 
+
+        .Verification .part2 .our-btn{
+            width: 302px;
+            height: 48px;
+            padding: 12px 10px 12px 10px;
+            gap: 10px;
+            border-radius: 12px;
+            background-color: #00E676;
+            color: #FFFFFF;
+            font-family: "Montserrat";
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 18.29px;
+            text-align: center;
+        }
+}
+
+
+/* media for Verification (phone) in media query */
+@media(max-width: 666px ) {
+    .Verification{
+        width: 280px;
+        height: 494.38px;
+        top: 80px;
+        left: 48px;
+        gap: 14px;
+        flex-direction: column;
+        }
+
+        .Verification .section1{
+            width: 280px;
+            height: 120.38px;
+            gap: 18px;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+        
+        .Verification .section1 .img img{
+            width: 88px;
+            height:80.38px;
+        }
+        
+        .Verification .section1 .text{
+            width: 280px;
+            height: 22px;
+            font-family: "Montserrat";
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 21.94px;
+            text-align: center;
+            color: #333333;
+        }
+        
+        .Verification .section2{
+            width: 280px;
+            height: 360px;
+            padding: 24px;
+            gap: 24px;
+            flex-direction: column;
+            border-radius: 12px;
+            border: 2px solid #EEEEEE;
+        }
+
+        .Verification .section2 .imageemail{
+            height:47px;
+            text-align: center;
+            align-items: center;
+        }
+        
+        .Verification .section2 .Form{
+            width:233px;
+            height:241px;
+            gap: 24px;
+            flex-direction: column;
+        }
+        
+        .Verification .section2 .Form .ptext{
+            width: 232px;
+            height: 48px;
+            font-family: "Open Sans";
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16.34px;
+            text-align: left;
+            color: #333333;
+        }
+        .Verification .section2 .Form .form{
+            width: 232px;
+            height: 97px;
+            gap: 12px;
+            flex-direction: column;
+        }
+        
+        .Verification .section2 .Form .form .our-form{
+            width: 232px;
+            height: 71px;
+            gap: 8px;
+            flex-direction: column;
+        }
+        
+        .Verification .section2 .Form .form .our-form .our-label{
+            width: 232px;
+            height: 15px;
+            color: #CCCCCC;
+            font-family: "Open Sans";
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 14.98px;
+            text-align: left;
+        }
+        
+        .Verification .section2 .Form .form .our-form .input1::placeholder{
+            width: 200px;
+            height: 24px;
+            color: #CCCCCC;
+            font-family: "Open Sans";
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16.34px;
+            text-align: left;
+            color: #999999;
+        }
+        
+        .Verification .section2 .Form .form a{
+            font-family: "Open Sans";
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 13.62px;
+            text-align: left;
+            color: #00C853;
+            height: 14px;
+            display: flex;
+            flex-direction: row-reverse;
+        } 
+
+        .Verification .part2 .our-btn{
+            width: 232px;
+            height: 48px;
+            padding: 12px 10px 12px 10px;
+            gap: 10px;
+            border-radius: 12px;
+            background-color: #00E676;
+            color: #FFFFFF;
+            font-family: "Montserrat";
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 15.85px;
+            text-align: center;
+        }
+}
+
+
+.ForgotPassword{
+width: 378px;
+height:446.31px;
+top: 100px;
+left: 531px;
+gap: 16px;
+flex-direction: column;
+}
+.ForgotPassword .section1{
+width: 378px;
+height: 154.31px;
+gap: 18px;
+flex-direction: column;
+align-items: center;
+}
+.ForgotPassword .section1 .img{
+width: 112px;
+height: 102.31px;
+padding: 0px 0px 3.8px 0px;
+}
+
+.ForgotPassword .section1 .text p{
+    width: 249px;
+    height: 34px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.13px;
+    text-align: center;
+    color: #333333;
+}
+.ForgotPassword .Form{
+width: 378px;
+height:276px;
+flex-direction: column;
+padding: 24px ;
+gap: 36px;
+border-radius: 12px;
+border: 2px solid #EEEEEE;
+}
+.ForgotPassword .Form .part1{
+width: 330px;
+height: 144px;
+gap: 34px;
+opacity: 0px;
+flex-direction: column;
+}
+
+
+.ForgotPassword .Form .part1 .ptext p{
+    width: 330px;
+    height: 38px;
+    gap: 34px;
+    opacity: 0px;
+    flex-direction: column;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    margin: 0px;
+}
+
+.ForgotPassword .Form .part1 .our-form{
+width: 330px;
+height: 72px;
+gap: 8px;
+opacity: 0px;
+flex-direction: column;
+
+}
+
+.ForgotPassword .Form .part1 .our-form .our-label{
+    width: 330px;
+    height: 16px;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.34px;
+    text-align: left;
+    color: #CCCCCC;
+    
+    
+}
+.ForgotPassword .Form .part1 .our-form .our-label{
+    width: 330px;
+    height: 16px;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.34px;
+    text-align: left;
+    color: #CCCCCC;
+    
+    
+}
+.ForgotPassword .Form .part1 .our-form .input1{
+    width: 330px;
+    height: 48px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+    border-radius: 12px ;
+    border: 2px solid #EEEEEE;
+}
+.ForgotPassword .Form .part1 .our-form .input1::placeholder{
+width: 298px;
+height: 24px;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 19.07px;
+text-align: left;
+color: #999999;
+
+}
+.ForgotPassword .part2{
+width: 330px;
+height:48px;
+padding: 12px 10px 12px 10px;
+gap: 10px;
+border-radius: 12px;
+opacity: 0px;
+background-color:#00E676;
+}
+.ForgotPassword .part2 .our-btn{
+width: 310px;
+height: 24px;
+font-family:"Montserrat";
+font-size: 15px;
+font-weight: 700;
+line-height: 18.29px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+/* media for forgotPassword(tablet) in media query */
+@media( min-width:667px)and (max-width: 768px ) {
+    .ForgotPassword{
+        width: 350px;
+        height:435.31px;
+        top: 90px;
+        left: 337px;
+        gap: 16px;
+        flex-direction: column;
+        }
+        .ForgotPassword .section1{
+        width: 350px;
+        height: 149.31px;
+        gap: 18px;
+        flex-direction: column;
+        align-items: center;
+        }
+        .ForgotPassword .section1 .img{
+        width: 112px;
+        height: 102.31px;
+        
+        }
+        
+        .ForgotPassword .section1 .text p{
+            width: 213px;
+            height: 29px;
+            font-family: "Montserrat";
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 29.26px;
+            text-align: center;
+            color: #333333;
+        }
+        .ForgotPassword .Form{
+        width: 350px;
+        height:270px;
+        flex-direction: column;
+        padding: 24px ;
+        gap: 36px;
+        border-radius: 12px;
+        border: 2px solid #EEEEEE;
+        }
+        .ForgotPassword .Form .part1{
+        width: 302px;
+        gap: 32px;
+        flex-direction: column;
+        }
+        
+        
+        .ForgotPassword .Form .part1 .ptext p{
+            width: 302px;
+            height: 36px;
+            gap: 34px;
+            opacity: 0px;
+            flex-direction: column;
+            font-family: "Open Sans";
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 17.7px;
+            text-align: left;
+        }
+        
+        .ForgotPassword .Form .part1 .our-form{
+        width: 302px;
+        height: 72px;
+        gap: 8px;
+        opacity: 0px;
+        flex-direction: column;
+        
+        }
+        
+        .ForgotPassword .Form .part1 .our-form .our-label{
+            width: 330px;
+            height: 16px;
+            font-family: "Open Sans";
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 16.34px;
+            text-align: left;
+            color: #CCCCCC;
+            
+            
+        }
+        .ForgotPassword .Form .part1 .our-form .our-label{
+            width: 302px;
+            height: 16px;
+            font-family: "Open Sans";
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 16.34px;
+            text-align: left;
+            color: #CCCCCC;
+            
+            
+        }
+        .ForgotPassword .Form .part1 .our-form .input1{
+            width: 302px;
+            height: 48px;
+            padding: 12px 16px 12px 16px;
+            gap: 10px;
+            border-radius: 12px ;
+            border: 2px solid #EEEEEE;
+        }
+        .ForgotPassword .Form .part1 .our-form .input1::placeholder{
+        width: 270px;
+        height: 24px;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.07px;
+        text-align: left;
+        color: #999999;
+        
+        }
+        .ForgotPassword .part2{
+        width: 302px;
+        height:48px;
+        padding: 12px 10px 12px 10px;
+        gap: 10px;
+        border-radius: 12px;
+        background-color:#00E676;
+        }
+        .ForgotPassword .part2 .our-btn{
+        width: 310px;
+        height: 24px;
+        font-family:"Montserrat";
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18.29px;
+        text-align: center;
+        color: #FFFFFF;
+        }
+}
+
+
+/* media for forgotPassword (phone) in media query */
+@media( max-width:666px) {
+    .ForgotPassword{
+        width: 280px;
+        height:399.38px;
+        top: 80px;
+        left:48px;
+        gap: 14px;
+        flex-direction: column;
+        }
+        .ForgotPassword .section1{
+        width: 280px;
+        height: 120.38px;
+        gap: 18px;
+        flex-direction: column;
+        align-items: center;
+        }
+        .ForgotPassword .section1 img{
+        width: 88px;
+        height: 80.38px;
+        
+        }
+        
+        .ForgotPassword .section1 .text p{
+            width: 280px;
+            height: 22px;
+            font-family: "Montserrat";
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 21.94px;
+            text-align: center;
+            color: #333333;
+        }
+        .ForgotPassword .Form{
+        width: 280px;
+        height:265px;
+        flex-direction: column;
+        padding: 20px ;
+        gap: 24px;
+        border-radius: 12px;
+        border: 2px solid #EEEEEE;
+        }
+
+        .ForgotPassword .Form .part1{
+        width: 240px;
+        height: 153px;
+        gap: 34px;
+        flex-direction: column;
+        }
+        
+        
+        .ForgotPassword .Form .part1 .ptext p{
+            width: 240px;
+            height: 48px;
+            gap: 34px;
+            opacity: 0px;
+            flex-direction: column;
+            font-family: "Open Sans";
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 17.7px;
+            text-align: left;
+        }
+        
+        .ForgotPassword .Form .part1 .our-form{
+        width: 240px;
+        height: 71px;
+        gap: 8px;
+        opacity: 0px;
+        flex-direction: column;
+        
+        }
+        
+        .ForgotPassword .Form .part1 .our-form .our-label{
+            width: 240px;
+            height: 15px;
+            font-family: "Open Sans";
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 14.98px;
+            text-align: left;
+            color: #CCCCCC;
+            
+            
+        }
+        .ForgotPassword .Form .part1 .our-form .input1{
+            width: 240px;
+            height: 48px;
+            padding: 12px 16px 12px 16px;
+            gap: 10px;
+            border-radius: 12px ;
+            border: 2px solid #EEEEEE;
+        }
+        .ForgotPassword .Form .part1 .our-form .input1::placeholder{
+        width: 208px;
+        height: 24px;
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.34px;
+        text-align: left;
+        color: #999999;
+        
+        }
+        .ForgotPassword .part2{
+        width: 240px;
+        height:48px;
+        padding: 12px 10px 12px 10px;
+        gap: 10px;
+        border-radius: 12px;
+        background-color:#00E676;
+        }
+        .ForgotPassword .part2 .our-btn{
+        width: 220px;
+        height: 24px;
+        font-family:"Montserrat";
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 15.85px;
+        text-align: center;
+        color: #FFFFFF;
+        }
+}
+
+
+/* Reset Password Desktop */
+.ResetPassword{
+width: 378px;
+height:502.31px;
+top: 100px;
+left: 531px;
+gap: 16px;
+flex-direction: column;
+opacity: 0px;
+
+
+}
+
+.ResetPassword .section1{
+width: 378px;
+height: 154.31px;
+gap: 18px;
+flex-direction: column;
+opacity: 0px;
+align-items: center;
+}
+
+.ResetPassword .section1 .img{
+
+height: 154.31px;
+gap: 18px;
+align-items: center;
+}
+
+.ResetPassword .section1 .text{
+width: 234px;
+height: 34px;
+font-family: "Montserrat";
+font-size: 28px;
+font-weight: 700;
+line-height: 34.13px;
+text-align: center;
+color: #333333;
+
+}
+
+.ResetPassword .Form{
+    width: 378px;
+height: 332px;
+padding: 24px ;
+gap: 24px;
+border-radius: 12px ;
+opacity: 0px;
+border:  2px solid #EEEEEE;
+flex-direction: column;
+}
+
+.ResetPassword .Form .form{
+    width: 330px;
+height: 200px;
+gap: 12px;
+opacity: 0px;
+flex-direction: column;
+}
+.ResetPassword .Form .form .our-form{
+ width: 330px;
+height:72px;
+gap: 8px;
+flex-direction: column;
+display: flex;
+
+}
+
+.ResetPassword .Form .form .our-form .input1{
+    width: 330px;
+height: 48px;
+padding: 12px 16px 12px 16px;
+gap: 10px;
+border-radius: 12px;
+border: 2px solid #EEEEEE ;
+opacity: 0px;
+
+}
+
+.ResetPassword .Form .form .our-label{
+    width: 330px;
+height: 16px;
+gap: 0px;
+opacity: 0px;
+font-family: "Open Sans";
+font-size: 12px;
+font-weight: 700;
+line-height: 16.34px;
+text-align: left;
+color: #CCCCCC;
+}
+
+.ResetPassword .Form .form .input1::placeholder{
+    width: 269px;
+height: 24px;
+gap: 0px;
+opacity: 0px;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 19.07px;
+text-align: left;
+color: #999999;
+
+}
+.ResetPassword .Form .our-p{
+    width: 330px;
+height: 32px;
+gap: 0px;
+opacity: 0px;
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 16.34px;
+text-align: left;
+columns: #333333;
+}
+
+.ResetPassword .part2 .our-btn{
+    width: 330px;
+height:48px;
+padding: 12px 10px 12px 10px;
+gap: 10px;
+border-radius: 12px ;
+opacity: 0px;
+font-family: "Montserrat";
+font-size: 15px;
+font-weight: 700;
+line-height: 18.29px;
+text-align: center;
+color: #FFFFFF;
+background-color: #00E676;
+}
+
+
+/* media for ResetPassword(tablet) in media query */
+@media( min-width:667px)and (max-width: 768px ) {
+
+    .ResetPassword{
+        width: 350px;
+        height:491.31px;
+        top: 90px;
+        left: 337px;
+        gap: 16px;
+        flex-direction: column;
+        }
+        
+        .ResetPassword .section1{
+        width: 350px;
+        height: 149.31px;
+        gap: 18px;
+        flex-direction: column;
+        opacity: 0px;
+        align-items: center;
+        }
+        
+        .ResetPassword .section1 .img{
+        height:102.31px;
+        gap: 18px;
+        align-items: center;
+        }
+        
+        .ResetPassword .section1 .text{
+        width: 200px;
+        height: 29px;
+        font-family: "Montserrat";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29.26px;
+        text-align: center;
+        color: #333333;
+        
+        }
+        
+        .ResetPassword .Form{
+        width: 350px;
+        height: 326px;
+        padding: 24px ;
+        gap: 24px;
+        border-radius: 12px ;
+        border:  2px solid #EEEEEE;
+        flex-direction: column;
+        }
+        
+        .ResetPassword .Form .form{
+            width: 302px;
+            height: 200px;
+            gap: 12px;
+            flex-direction: column;
+        }
+        .ResetPassword .Form .form .our-form{
+        width: 302px;
+        height:72px;
+        gap: 8px;
+        flex-direction: column;
+        display: flex;
+        
+        }
+        
+        .ResetPassword .Form .form .our-form .input1{
+        width: 302px;
+        height: 48px;
+        padding: 12px 16px 12px 16px;
+        gap: 10px;
+        border-radius: 12px;
+        border: 2px solid #EEEEEE ;
+        }
+        
+        .ResetPassword .Form .form .our-label{
+        width: 302px;
+        height: 16px;
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16.34px;
+        text-align: left;
+        color: #CCCCCC;
+        }
+        
+        .ResetPassword .Form .form .input1::placeholder{
+        width: 241px;
+        height: 24px;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.07px;
+        text-align: left;
+        color: #999999;
+        
+        }
+        .ResetPassword .Form .our-p{
+            width: 302px;
+        height: 32px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Open Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.34px;
+        text-align: left;
+        columns: #333333;
+        }
+        
+        .ResetPassword .part2 .our-btn{
+        width: 302px;
+        height:48px;
+        padding: 12px 10px 12px 10px;
+        gap: 10px;
+        border-radius: 12px ;
+        font-family: "Montserrat";
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18.29px;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #00E676;
+        }
+}
+
+
+
+/* media for ResetPassword(phone) in media query */
+@media( max-width:666px) {
+
+        .ResetPassword{
+        width: 280px;
+        height:459.38px;
+        top: 80px;
+        left: 48px;
+        gap: 14px;
+        flex-direction: column;
+        }
+        
+        .ResetPassword .section1{
+        width: 280px;
+        height: 120.38px;
+        gap: 18px;
+        flex-direction: column;
+        opacity: 0px;
+        align-items: center;
+        }
+        
+        .ResetPassword .section1 img{
+        height:80.38px;
+        gap: 18px;
+        align-items: center;
+        }
+        
+        .ResetPassword .section1 .text{
+        width: 280px;
+        height: 22px;
+        font-family: "Montserrat";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.94px;
+        text-align: center;
+        color: #333333;
+        
+        }
+        
+        .ResetPassword .Form{
+        width: 280px;
+        height: 325px;
+        padding: 20px ;
+        gap: 24px;
+        border-radius: 12px ;
+        border:  2px solid #EEEEEE;
+        flex-direction: column;
+        }
+        
+        .ResetPassword .Form .form{
+            width: 240px;
+            height: 211px;
+            gap: 12px;
+            flex-direction: column;
+        }
+        .ResetPassword .Form .form .our-form{
+        width: 240px;
+        height:71px;
+        gap: 8px;
+        flex-direction: column;
+        display: flex;
+        
+        }
+        
+        .ResetPassword .Form .form .our-form .input1{
+        width: 240px;
+        height: 48px;
+        padding: 12px 16px 12px 16px;
+        gap: 10px;
+        border-radius: 12px;
+        border: 2px solid #EEEEEE ;
+        }
+        
+        .ResetPassword .Form .form .our-label{
+        width: 240px;
+        height: 15px;
+        font-family: "Open Sans";
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 14.98px;
+        text-align: left;
+        color: #CCCCCC;
+        }
+        
+        .ResetPassword .Form .form .input1::placeholder{
+        width: 179px;
+        height: 24px;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.07px;
+        text-align: left;
+        color: #999999;
+        
+        }
+        .ResetPassword .Form .our-p{
+            width: 240px;
+        height: 45px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Open Sans;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 14.98px;
+        text-align: left;
+        columns: #333333;
+        }
+        
+        .ResetPassword .part2 .our-btn{
+        width: 240px;
+        height:48px;
+        padding: 12px 10px 12px 10px;
+        gap: 10px;
+        border-radius: 12px ;
+        font-family: "Montserrat";
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 15.85px;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #00E676;
+        }
+}
+
+/* 
+Lgin After Reset in Desktop  */
+.Login .set_Successfully{
+    width: 378px;
+height: 52px;
+padding: 14px 24px 14px 24px;
+gap: 0px;
+border-radius: 12px;
+opacity: 0px;
+border:  2px solid #EEEEEE;
+justify-content: space-between;
+    flex-direction: row;
+}
+.Login .set_Successfully p{
+width: 190px;
+height: 18px;
+gap: 0px;
+opacity: 0px;
+font-family: "Open Sans";
+font-size: 13px;
+font-weight: 400;
+line-height: 17.7px;
+text-align: left;
+color: #333333;
+text-align: center;
+margin: 0px;
+align-items: center;
+}
+
+.Login .set_Successfully img{
+width: 12px;
+height: 12px;
+align-items: center;
+text-align: center;
+}
+
+
+/* media for Reset Password (tablet) in media query */
+@media( min-width:667px)and (max-width: 768px ) {
+/* 
+Lgin After Reset in tablet  */
+.Login .set_Successfully{
+width: 350px;
+height: 52px;
+padding: 14px 24px 14px 24px;
+border-radius: 12px;
+border:  2px solid #EEEEEE;
+justify-content: space-between;
+    flex-direction: row;
+}
+.Login .set_Successfully p{
+width: 190px;
+height: 18px;
+gap: 0px;
+opacity: 0px;
+font-family: "Open Sans";
+font-size: 13px;
+font-weight: 400;
+line-height: 17.7px;
+text-align: left;
+color: #333333;
+text-align: center;
+margin: 0px;
+align-items: center;
+}
+
+.Login .set_Successfully img{
+width: 12px;
+height: 12px;
+align-items: center;
+text-align: center;
+}
+}
+
+
+/* media for Reset Password  (phone) in media query */
+@media( max-width:666px) {
+    /* 
+    Lgin After Reset in tablet  */
+    .Login .set_Successfully{
+    width: 280px;
+    height: 48px;
+    padding: 14px 24px 14px 24px;
+    border-radius: 12px;
+    border:  2px solid #EEEEEE;
+    justify-content: space-between;
+        flex-direction: row;
+    }
+    .Login .set_Successfully p{
+    width: 161px;
+    height: 15px;
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14.98px;
+    text-align: left;
+    color: #333333;
+    text-align: center;
+    align-items: center;
+    }
+    
+    .Login .set_Successfully img{
+    width: 12px;
+    height: 12px;
+    align-items: center;
+    text-align: center;
+    }
+    }
